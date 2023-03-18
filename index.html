@@ -45,7 +45,7 @@
       style="background-color: #0000"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
           <!--------- logo ---------->
           <img src="./img/logo.png" width="40" class="navbar-logo" />
         </a>
@@ -70,9 +70,10 @@
             <img src="./img/logo.png" width="40" class="navbar-logo" />
             <button
               type="button"
-              class="btn-close"
+              class="btn-close btn-close-white"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
+
             ></button>
           </div>
           <!--------- links ---------->
@@ -82,7 +83,7 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="./pages/index.html"
+                  href="./index.html"
                   >HOME</a
                 >
               </li>
@@ -139,9 +140,11 @@
             loop="true"
             poster="/img/home/poster.png"
           ></video>
-          <!-- tit -->
+          <!-- overlay -->
           <div class="primeraSeccion__overlay overlay">
+            <!-- titulo -->
             <h1 class="overlay__h1">LAURA CADABON</h1>
+            <!-- boton hacia abajo -->
             <a href="#presentacion" class="overlay__link">
               <i class="fas fa-chevron-circle-down overlay__icon"> </i>
             </a>
@@ -151,10 +154,15 @@
 
       <!-- segunda seccion -->
       <div class="bg-black no-gutters segundaSeccion" id="presentacion">
+        <!-- seccion 2 y fila dos columnas -->
         <div class="row segundaSeccion__container">
-          <!-- slider -->
+          <!-- columna 1: slider -->
           <div class="col-lg">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div
+              id="carouselExampleFade"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
@@ -212,14 +220,17 @@
             </div>
           </div>
           <div class="col-lg">
+            <!-- columna 2: texto -->
             <div class="segundaSeccion__texto">
+              <!-- parrafo 1 -->
               <p class="segundaSeccion__texto--p">
                 Laura Cadabon es una bandoneonista nacida en Buenos Aires,
                 Argentina. Comenzó su recorrido en el camino de la música
                 estudiando piano. Luego su pasión por el tango la llevo a
                 dedicar al instrumento mas emblemático del género:
-                <b>el bandoneón </b>.
+                <b>el Bandoneón </b>.
               </p>
+              <!-- parrafo 2 -->
               <p class="segundaSeccion__texto--p">
                 Ella fue parte de diversos proyectos de tango, como la Orquesta
                 Típica Suburbana (parte de La Academia Tango Club), el quinteto
@@ -227,12 +238,14 @@
                 por Uruguay, Ecuador, Bélgica, España, Argentina y Estados
                 Unidos.<br />
               </p>
+              <!-- parrafo 3 -->
               <p class="segundaSeccion__texto--p">
                 Laura Cadabon actualmente reside en Florida (Usa).
               </p>
             </div>
-
+            <!-- texto para mobile con collapsed text  -->
             <div class="segundaSeccion__texto--mobile">
+              <!-- parrafo que se ve siempre -->
               <p class="segundaSeccion__texto--p">
                 Laura Cadabon es una bandoneonista nacida en Buenos Aires,
                 Argentina. Comenzó su recorrido en el camino de la música
@@ -240,7 +253,7 @@
                 dedicar al instrumento mas emblemático del género:
                 <b>el bandoneón </b>.
               </p>
-
+              <!-- collapsed text -->
               <div class="collapse" id="collapsedText">
                 <p class="segundaSeccion__texto--p">
                   Ella fue parte de diversos proyectos de tango, como la
@@ -253,16 +266,17 @@
                   Laura Cadabon actualmente reside en Florida (Usa).
                 </p>
               </div>
+              <!-- collapsed button -->
               <a
-              class="btn btn-primary readMore"
-              data-bs-toggle="collapse"
-              href="#collapsedText"
-              role="button"
-              aria-expanded="false"
-              aria-controls="collapsedText"
-            >
-              Conocer Más
-            </a>
+                class="btn btn-danger"
+                data-bs-toggle="collapse"
+                href="#collapsedText"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapsedText"
+              >
+                Conocer Más
+              </a>
             </div>
           </div>
         </div>
@@ -353,70 +367,97 @@
         <div class="col">
           <div class="footer">
             <!--redes sociales-->
-            <ul class="footer__ul">
-              <li class="footer__li">
-                <a href="tel:+123456789" class="footer__a">
-                  <!-- icono telefono  -->
-                  <i class="fa-solid fa-phone"></i>
-                </a>
-              </li>
-              <li class="footer__li">
-                <a href="mailto:uncorreo@correo.com" class="footer__a">
-                  <!-- icono mail -->
-                  <i class="fa-solid fa-envelope"></i>
-                </a>
-              </li>
-              <li class="footer__li">
-                <a href="https://www.facebook.com" target="_blank" class="footer__a">
-                  <!-- icono facebook -->
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="footer__li">
-                <a href="https://www.instagram.com" target="_blank" class="footer__a">
-                  <!-- icono instagram -->
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li class="footer__li">
-                <a href="https://open.spotify.com/artist/7hdyL6gI0cKuUQxxIkfSNV" target="_blank" class="footer__a">
-                  <!-- icono spotify -->
-                  <i class="fab fa-spotify"></i>
-                </a>
-              </li>
-              <li class="footer__li">
-                <a href="https://www.youtube.com/@lauracadabon8107" target="_blank" class="footer__a">
-                  <!-- icono youtbe -->
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </li>
-              <li class="footer__li">
-                <a href="https://music.apple.com/ar/artist/laura-cadabon/1493203554" target="_blank" class="footer__a">
-                  <!-- icono itunes -->
-                  <i class="fab fa-itunes"></i>
-                </a>
-              </li>
-            </ul>
-
+            <div class="row">
+              <div class="col">
+                <ul class="footer__ul">
+                  <li class="footer__li">
+                    <a href="tel:+123456789" class="footer__a">
+                      <!-- icono telefono  -->
+                      <i class="fa-solid fa-phone"></i>
+                    </a>
+                  </li>
+                  <li class="footer__li">
+                    <a href="mailto:uncorreo@correo.com" class="footer__a">
+                      <!-- icono mail -->
+                      <i class="fa-solid fa-envelope"></i>
+                    </a>
+                  </li>
+                  <li class="footer__li">
+                    <a
+                      href="https://www.facebook.com"
+                      target="_blank"
+                      class="footer__a"
+                    >
+                      <!-- icono facebook -->
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="footer__li">
+                    <a
+                      href="https://www.instagram.com"
+                      target="_blank"
+                      class="footer__a"
+                    >
+                      <!-- icono instagram -->
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="footer__li">
+                    <a
+                      href="https://open.spotify.com/artist/7hdyL6gI0cKuUQxxIkfSNV"
+                      target="_blank"
+                      class="footer__a"
+                    >
+                      <!-- icono spotify -->
+                      <i class="fab fa-spotify"></i>
+                    </a>
+                  </li>
+                  <li class="footer__li">
+                    <a
+                      href="https://www.youtube.com/@lauracadabon8107"
+                      target="_blank"
+                      class="footer__a"
+                    >
+                      <!-- icono youtbe -->
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li class="footer__li">
+                    <a
+                      href="https://music.apple.com/ar/artist/laura-cadabon/1493203554"
+                      target="_blank"
+                      class="footer__a"
+                    >
+                      <!-- icono itunes -->
+                      <i class="fab fa-itunes"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <!--disclaimer-->
-            <div class="footer__disclaimer disclaimer">
-              <ul class="disclaimer__ul">
-                <li class="disclaimer__li">
-                  <p class="disclaimer__p">© 2023</p>
-                </li>
-                <li class="disclaimer__li">
-                  <a href="" class="disclaimer__a">Privacy </a>
-                </li>
-                <li class="disclaimer__li">
-                  <a href="" class="disclaimer__a"> Terms of Use </a>
-                </li>
-                <li class="disclaimer__li">
-                  <a href="" class="disclaimer__a">Cookie Policy </a>
-                </li>
-                <li class="disclaimer__li">
-                  <a href="" class="disclaimer__a">Cookie Settings </a>
-                </li>
-              </ul>
+            <div class="row">
+              <div class="col">
+                <div class="footer__disclaimer disclaimer">
+                  <ul class="disclaimer__ul">
+                    <li class="disclaimer__li">
+                      <p class="disclaimer__p">© 2023</p>
+                    </li>
+                    <li class="disclaimer__li">
+                      <a href="" class="disclaimer__a">Privacy </a>
+                    </li>
+                    <li class="disclaimer__li">
+                      <a href="" class="disclaimer__a"> Terms of Use </a>
+                    </li>
+                    <li class="disclaimer__li">
+                      <a href="" class="disclaimer__a">Cookie Policy </a>
+                    </li>
+                    <li class="disclaimer__li">
+                      <a href="" class="disclaimer__a">Cookie Settings </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
