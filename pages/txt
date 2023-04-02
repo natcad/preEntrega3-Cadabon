@@ -1,0 +1,77 @@
+<div class="clases__overlay">
+        <div class="clases__contenedorTexto">
+          <!-- titulo -->
+          <h2 class="clases__h2">CLASES & WORKSHOPS</h2>
+          <!-- subtitulo -->
+          <h3 class="clases__h3">Clases de Piano y Bandoneón</h3>
+          <p class="clases__p">
+            Presenciales y virtuales <br />
+            Español o Inglés <br />
+            Todas las edades
+          </p>
+          <!-- subtitullo -->
+          <h3 class="clases__h3">Multicultural Music & Arts</h3>
+
+          <div class="clases__texto">
+            <!-- resumen -->
+            <p class="clases__p">
+              Un espacio para aprender distintas ramas del arte y la música
+              ubicado en Hollywood, Florida. Se dictan clases grupales o
+              individuales de piano, violín, guitarra, canto, arte y banda.
+              Abierto para todo aquel que quiera aprender.
+            </p>
+          </div>
+          <!-- boton -->
+          <div class="clases__contenedorBoton">
+            <button class="clases__button">CONTACTARSE YA</button>
+          </div>
+        </div>
+        <div class="clases__col">
+          <img
+            src="../img/clases/sinFondoCortada.png"
+            alt="mujer tocando bandoneon"
+            class="clases__img"
+          />
+        </div>
+      </div>
+      <!-- </div> -->
+      <div class="clases__detras">
+        <div class="clases__item">
+          <img
+            src="../img/clases/music-92.png"
+            alt="mujer mira al frente detras se ve el logo que dice 'Music and Arts' de la academia de arte"
+            class="clases__img--vertical"
+          />
+        </div>
+        <div class="clases__item">
+          <img
+            src="../img/clases/pianoNene.png"
+            alt="mujer y un nene miran a la camara mietra tocan piano"
+            class="clases__img--vertical"
+          />
+        </div>
+      </div>
+
+      <div class="clases__debajo">
+        <div class="clases__item">
+          <img
+            src="../img/clases/dirigiendo.png"
+            alt="mujer dirige a un grupo de niños que tocan instrumentos musicales"
+            class="clases__img--horizontal"
+          />
+        </div>
+        <div class="clases__item">
+          <img
+            src="../img/clases/tocandoFrente.png"
+            alt="mujer toca bandoneon mirando a la camara de frente"
+            class="clases__img--horizontal"
+          />
+        </div>
+        <div class="clases__item--horizontal">
+          <img
+            src="../img/clases/partitura.png"
+            alt="mujer muestra una partitura"
+            class="clases__img--horizontal"
+          />
+        </div>
+      </div>
